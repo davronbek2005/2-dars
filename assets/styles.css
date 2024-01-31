@@ -1,0 +1,162 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: rgb(220, 132, 133);
+    overflow: hidden;
+}
+
+.header_lists {
+    display: flex;
+    list-style: none;
+    gap: 5%;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 65px;
+    color: rgba(240, 248, 255, 0.942);
+    margin-left: 295px;
+    margin-top: 70px;
+}
+
+.next-page {
+    color: rgba(207, 207, 207, 0.553);
+}
+.next-page:hover {
+    color: rgba(240, 248, 255, 0.656);
+}
+
+.page-info {
+    width: 600px;
+    margin-top: 15px;
+    color:rgba(240, 248, 255, 0.942);
+    font-family: roboto;
+    margin-left: 295px;
+}
+
+.button-back {
+    margin-top: 40px;
+    margin-left: 210px;
+    width: 85px;
+    height: 85px;
+    background-color: rgba(240, 248, 255, 0.419);
+    border: 0;
+    
+    
+}
+
+.button-back:hover{
+    background-color: rgba(240, 248, 255, 0.59);
+}
+
+.left-logo {
+    position: relative;
+    width: 15px;
+    margin-left: -5px;
+    
+}
+
+
+.text {
+    font-family: roboto;
+    color:rgb(211, 98, 100);
+    font-size: 20px;
+}
+
+.naming {
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(213, 213, 213);
+    margin-top: 10px;
+}
+
+.time-box {
+    background-color: rgb(63, 60, 60);
+    display: inline-block;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 50px;
+    padding-right: 160px;
+}
+
+.temperature-box {
+    background-color: rgb(41, 40, 40);
+    display: inline-block;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 50px;
+    padding-right: 160px;
+    margin-left: -3.9px;
+}
+
+.load-box {
+    background-color: rgb(32, 31, 31);
+    display: inline-block;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 50px;
+    padding-right: 160px;
+    margin-left: -3.7px;
+    
+}
+
+.box {
+    display: inline-block;
+    position: absolute;
+    margin-left: 295px;
+    margin-top: -85px;
+    
+}
+
+.button-next {
+    margin-left: 210px;
+    width: 85px;
+    height: 85px;
+    background-color: rgba(240, 248, 255, 0.432);
+    border: 0;
+    position: absolute;
+    margin-left: 1240px;
+    margin-top: -85px;
+}
+
+.button-next:hover {
+    background-color: rgba(240, 248, 255, 0.59);
+}
+
+.start-button {
+    font-family: roboto;
+    font-weight: 400;
+    border: 0;
+    font-size: 17px;
+    color: rgb(213, 213, 213);
+    background-color: #222;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 320px;
+    border-radius: 5px;
+    transform: scaleY(1);
+}
+
+.start-button:hover {
+    scale: 1.1;
+
+}
+
+
+
+
+
+
+
